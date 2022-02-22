@@ -1,0 +1,20 @@
+{
+    "name": "BacklogGanttToggle",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "BacklogGanttToggle",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.backlog.com/gantt*",
+                "https://*.backlog.jp/gantt*",
+                "https://*.backlog.com/ViewProjectGantt.action*",
+                "https://*.backlog.jp/ViewProjectGantt.action*"
+            ],
+            "js": [
+                "js/jquery-3.6.0.min.js",
+                "js/index.min.js"
+            ]
+        }
+    ]
+}
