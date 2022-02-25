@@ -1,0 +1,21 @@
+{
+    "include": [
+        "./src/**/*",
+        "./webpack.config.ts"
+    ],
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2019"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "allowSyntheticDefaultImports": true,
+    }
+}
