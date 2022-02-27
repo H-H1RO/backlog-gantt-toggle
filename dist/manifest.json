@@ -12,7 +12,7 @@
                 "https://*.backlog.jp/ViewProjectGantt.action*"
             ],
             "js": [
-                "index.js"
+                "index.min.js"
             ]
         }
     ]
